@@ -39,6 +39,11 @@ neoForge {
     }
 }
 
+// Добавленные зависимости (подключение локальных JAR из папки libs)
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }

@@ -1,5 +1,54 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "VideoManager",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "video_manager",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglibextra/VideoManager.java"
+        ]
+      }
+    },
+    {
+      "name": "VideoPlayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "video_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglibextra/VideoPlayer.java"
+        ]
+      }
+    },
+    {
+      "name": "VideoRender",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "video_render",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglibextra/VideoRender.java"
+        ]
+      }
+    },
+    {
+      "name": "TestVideo",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "test_video",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffmpeglibextra/TestVideo.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
