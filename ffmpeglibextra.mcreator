@@ -35,18 +35,6 @@
           "src/main/java/net/mcreator/ffmpeglibextra/VideoRender.java"
         ]
       }
-    },
-    {
-      "name": "TestVideo",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "test_video",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ffmpeglibextra/TestVideo.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
